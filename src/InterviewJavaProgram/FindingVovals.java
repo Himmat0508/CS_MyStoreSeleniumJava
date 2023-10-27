@@ -4,7 +4,7 @@ public class FindingVovals {
 
 	public static void main(String[] args) {
 
-		String a = "wealcome";
+		String a = "wealcomesdfokgdsfogjk";
 		
 		for ( int i=0;i<=a.length();i++) {
 			
