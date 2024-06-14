@@ -2,21 +2,21 @@ package InterviewJavaProgram;
 
 import java.util.Scanner;
 
-public class ReverceNumber {
+public class CCCC_ReverceNumber {
 
 	public static void main(String[] args) {
 
 		
-		/*int no = 987654321, rem, rev=0;
+		int no = 987654321, rem = 0, rev=0;
 		
 		while ( no!=0) {
 			
 			rem = no%10;
 			rev = rev*10+rem;
 			no = no/10;
-		{
+		}
 	System.out.println(rev);
-		}*/
+		//}
 		
 		//Using StingBuffer
 		
@@ -28,11 +28,11 @@ public class ReverceNumber {
 		
 		// Using StringBuilder
 		
-		StringBuilder sc = new StringBuilder ( "987654321");
+		/*StringBuilder sc = new StringBuilder ( "987654321");
 		
 		StringBuilder rev = sc.reverse();
 		
-		System.out.println(rev);
+		System.out.println(rev);*/
 		
 		}
 		

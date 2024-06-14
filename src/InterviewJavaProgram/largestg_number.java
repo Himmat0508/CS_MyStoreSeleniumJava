@@ -5,7 +5,7 @@ public class largestg_number {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int a=10, b=50,c=30 , d=80;
+		int a=100, b=50,c=300 , d=80;
 		
 		/*if ( a>b && a>c) {
 			System.out.println(a+    " is largest number");
@@ -20,12 +20,12 @@ public class largestg_number {
 		// Ternary Opretor
 		
 		int largest1 = a>b?a:b;
-		int largest2 = c>largest1?c:largest1;
-		int largest3 = d>largest2?d:largest2;
+		//int largest2 = c>largest1?c:largest1;
+		//int largest3 = d>largest2?d:largest2;
 		
 				
 
-		System.out.println(largest3);
+		System.out.println(largest1);
 	}
 
 }

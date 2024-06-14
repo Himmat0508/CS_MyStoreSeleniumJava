@@ -9,7 +9,7 @@ public class Curector_count_inString {
 		
 	int TotalCount = a.length();
 		
-		 int count_afterRemove = a.replace("H", "").length();
+		 int count_afterRemove = a.replace("m", "").length();
 		 
 		 System.out.println(TotalCount-count_afterRemove);
 	}

@@ -4,19 +4,20 @@ public class FindingVovals {
 
 	public static void main(String[] args) {
 
-		String a = "wealcomesdfokgdsfogjk";
+		String str = "Himmaat";
+		int count=0;
 		
-		for ( int i=0;i<=a.length();i++) {
+		
+		for ( int i=0;i<str.length();i++) {
 			
-			if ( a.charAt(i)=='a' || a.charAt(i+1)=='o') {
-				System.out.println(i);
-			}
-			
-		}
-		
-		
-		
+			if ( str.charAt(i)=='a'|| str.charAt(i)=='e'|| str.charAt(i)=='r') {
 				
-	}
+				count++;
+			}
 
+		}
+		System.out.println(count);
+
+
+}
 }

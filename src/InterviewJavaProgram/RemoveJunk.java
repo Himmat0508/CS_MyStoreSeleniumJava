@@ -10,6 +10,9 @@ public class RemoveJunk {
 		a = a.replaceAll("[^a-zA-Z0-9]", "");
 		
 		System.out.println(a);
+		
+		
+		
 	}
 
 }

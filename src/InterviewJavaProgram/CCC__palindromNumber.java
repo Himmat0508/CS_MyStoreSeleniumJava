@@ -2,7 +2,7 @@ package InterviewJavaProgram;
 
 import java.util.Scanner;
 
-public class palindromNumber {
+public class CCC__palindromNumber {
 
 	public static void main(String[] args) {
 
@@ -17,12 +17,14 @@ public class palindromNumber {
 			
 			rev = rev*10+ num%10;
 			num = num/10;
+			
 		}
 		if (Org_num==rev) {
 			System.out.println("it is pelandrom number:");
 		}
 		else {
 			System.out.println("it is not a palndrom number");
+
 		}
 	}
 

@@ -4,20 +4,21 @@ public class min_max_value {
 
 	public static void main(String[] args) {
 
-		int a[]= {50,30,400,60,100};
+	
+		int a[] = {30,40,20,50,66,70,99,10};
 		
-		int max = a[0];
+		int max = 0;
 		
-		for ( int i=1;i<a.length;i++) {
+		for ( int i=0; i<a.length;i++) {
 			
-			if ( a[i]>max) {
+			if ( max<a[i]) {
 				
-				max = a[i];
+				max = a[i]	;
 			}
-			
 		}
-		System.out.println(max);
 
+		System.out.println(max);
+		
 	}
 
 }

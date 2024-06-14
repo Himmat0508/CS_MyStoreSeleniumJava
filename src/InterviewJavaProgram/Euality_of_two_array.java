@@ -18,6 +18,8 @@ public class Euality_of_two_array {
 	else {
 		System.out.println("not equal");
 	}
+	
+	
 	}
 
 }
